@@ -7,6 +7,13 @@
 </head>
 <body>
   <h1>Typing Speed & Accuracy Game</h1>
+  <div class="controls">
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
   <p id="word"></p>
   <input type="text" id="input" placeholder="Start typing..." autofocus>
   
@@ -14,6 +21,7 @@
     <p>Time Left: <span id="time">30</span>s</p>
     <p>Score: <span id="score">0</span></p>
     <p>WPM: <span id="wpm">0</span></p>
+    <p>Accuracy: <span id="accuracy">100</span>%</p>
   </div>
 
   <script src="script.js"></script>
